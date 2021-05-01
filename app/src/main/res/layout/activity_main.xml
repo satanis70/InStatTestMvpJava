@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#B9C5C2"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tournament"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:text="Турнир" />
+
+    <TextView
+        android:id="@+id/team1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:text="Команда 1" />
+
+    <TextView
+        android:id="@+id/score_team1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="15dp"
+        android:text="Счет: " />
+
+    <TextView
+        android:id="@+id/team2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:text="Команда 2" />
+
+    <TextView
+        android:id="@+id/score_team2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginStart="15dp"
+        android:textSize="20sp"
+        android:text="Счет: " />
+
+    <TextView
+        android:id="@+id/match_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="15dp"
+        android:textSize="20sp"
+        android:text="Дата матча" />
+
+        <Button
+            android:id="@+id/button_translation1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="#F44336"
+            android:layout_marginTop="50dp"
+            android:text="Трансляция 1" />
+        <Button
+            android:id="@+id/button_translation2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="#F44336"
+            android:layout_marginTop="50dp"
+            android:text="Трансляция 2" />
+        <Button
+            android:id="@+id/button_translation3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="#F44336"
+            android:layout_marginTop="50dp"
+            android:text="Трансляция 3" />
+        <Button
+            android:id="@+id/button_translation4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="#F44336"
+            android:layout_marginTop="50dp"
+            android:text="Трансляция 4" />
+
+</LinearLayout>
