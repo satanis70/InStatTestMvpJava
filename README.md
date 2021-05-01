@@ -1,0 +1,2 @@
+# InStatTestMvpJava
+Тестовое для Instat
